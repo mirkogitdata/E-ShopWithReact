@@ -71,11 +71,6 @@ class App extends React.Component {
  
 }
 
-/*
- <button onClick={()=> props.history.push('./shop')}>Link to Shop</button>
- <Link to='/shop'>Link to Hatspage</Link>
-*/
-
 const mapStateToProps = /*({user})*//*state =>*/ createStructuredSelector({
   //currentUser: user.currentUser
   currentUser: selectCurrentUser
