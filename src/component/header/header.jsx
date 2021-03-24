@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
 //import {HeaderContainer, LogoContainer, OptionContainer, OptionLink, OptionDiv } from '../header/header.styles';
 
-//Create this sleector to replace state with createStructuredSelector   
+//Create this selector to replace state with createStructuredSelector   
 import { createStructuredSelector } from  'reselect';
 
 import { auth } from '../../firebase/firebase.util';
@@ -52,5 +52,4 @@ const mapStateToProps = /*({user: {currentUser}, cart: {hidden}})*/createStructu
    hidden: selectCartHidden
 });
 
-     
 export default connect(mapStateToProps)(Header);
