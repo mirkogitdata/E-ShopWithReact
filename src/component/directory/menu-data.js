@@ -1,13 +1,13 @@
 const MenuData = [
       {
         title: 'jackets',
-        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+        imageUrl: 'https://i.ibb.co/XF7WTcf/jackets.jpg',
         id: 0,
         linkUrl: 'shop/jackets'
       },
       {
         title: 'sneakers',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        imageUrl: 'https://i.ibb.co/wzHdLBQ/sneakers.jpg',
         id: 1,
         linkUrl: 'shop/sneakers'
       },
@@ -20,7 +20,7 @@ const MenuData = [
       },
       {
         title: 'mens',
-        imageUrl: 'https://i.ibb.co/2t27wLw/men.jpg',
+        imageUrl: 'https://i.ibb.co/3mcYXSP/mens.jpg',
         size: 'large',
         id: 3,
         linkUrl: 'shop/mens'
