@@ -141,16 +141,17 @@ const shop_data = {
     items: [
       {
         id: 29,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/YDS8gzt/t-shirt.jpg',
+        name: 'T-shirt',
+        imageUrl: 'https://i.ibb.co/f2DfR2W/mens.jpg',
         price: 40
       },
       {
         id: 30,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
-      },
+        name: 'Jackets',
+        imageUrl: 'https://i.ibb.co/2v9wPpV/jackets.jpg',
+        price: 25
+     },
+      
       {
         id: 31,
         name: 'Black & White Longsleeve',
@@ -159,32 +160,33 @@ const shop_data = {
       },
       {
         id: 32,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Floral T-shirt',
+        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        price: 20
       },
+     
       {
         id: 33,
-        name: 'Jeffrey-Reed',
-        imageUrl: 'https://i.ibb.co/gTtK6bs/pexels-jeffrey-reed-769732.jpg',
-        price: 25
-      },
-      {
-        id: 34,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-          id: 35,
-          name: 'M Jackets',
-          imageUrl: 'https://i.ibb.co/qxZmw8q/jackets-m.jpg',
-          price: 25
+        id: 34,
+        name: 'Pink T-shirt',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 25
+      },
+      {
+        id: 35,
+        name: 'Jeffrey-Reed',
+        imageUrl: 'https://i.ibb.co/qxZmw8q/jackets-m.jpg',
+        price: 25
       },
       {
         id: 36,
-        name: 'KL T-shirt',
-        imageUrl: 'https://i.ibb.co/54Vwf9D/t-shirt.jpg',
+        name: 'T-shirt',
+        imageUrl: 'https://i.ibb.co/2t27wLw/men.jpg',
         price: 25
       }
     ]
