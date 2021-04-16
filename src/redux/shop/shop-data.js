@@ -131,12 +131,6 @@ const shop_data = {
         name: 'Yellow Track Suit',
         imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
         price: 135
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
       }
     ]
   },
@@ -146,27 +140,33 @@ const shop_data = {
     routeName: 'mens',
     items: [
       {
-        id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        id: 29,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/YDS8gzt/t-shirt.jpg',
+        price: 40
       },
       {
-        id: 31,
+        id: 30,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 32,
+        id: 31,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 33,
+        id: 32,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 25
+      },
+      {
+        id: 33,
+        name: 'Jeffrey-Reed',
+        imageUrl: 'https://i.ibb.co/gTtK6bs/pexels-jeffrey-reed-769732.jpg',
         price: 25
       },
       {
@@ -176,9 +176,15 @@ const shop_data = {
         price: 40
       },
       {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+          id: 35,
+          name: 'M Jackets',
+          imageUrl: 'https://i.ibb.co/qxZmw8q/jackets-m.jpg',
+          price: 25
+      },
+      {
+        id: 36,
+        name: 'KL T-shirt',
+        imageUrl: 'https://i.ibb.co/54Vwf9D/t-shirt.jpg',
         price: 25
       }
     ]

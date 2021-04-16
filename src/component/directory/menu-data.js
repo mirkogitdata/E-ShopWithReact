@@ -20,7 +20,7 @@ const MenuData = [
       },
       {
         title: 'mens',
-        imageUrl: 'https://i.ibb.co/3mcYXSP/mens.jpg',
+        imageUrl: 'https://i.ibb.co/f2DfR2W/mens.jpg',
         size: 'large',
         id: 3,
         linkUrl: 'shop/mens'
