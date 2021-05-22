@@ -12,13 +12,13 @@ import Header from './component/header/header.jsx';
 import Footer from './component/footer/footer.jsx';
 import CheckoutPage from './pages/checkout/CheckoutPage';
 //Firebase setup, auth, google auth, selectors, redux actions
-import {auth, createUserProfileDocument} from  '../src/firebase/firebase.util';
+import {auth, createUserProfileDocument, addCollectionDocuments} from  '../src/firebase/firebase.util';
 import {setCurrentUser} from './redux/user/user-action';
 //Reselect to reduce render from mapStateToProps with cart&user selector
 import { selectCurrentUser } from './redux/user/user-selectors';
 //Create this selector to replace state with createStructuredSelector
 import { createStructuredSelector } from 'reselect';
-
+import { selectCollectionsForPreview } from './redux/shop/shop-selectors';
 
 class App extends React.Component {
   
@@ -30,7 +30,7 @@ class App extends React.Component {
        createUserProfileDocument(user);
        console.log(user);
        */
-    const { setCurrentUser } = this.props;
+    const { setCurrentUser, collectionsArray } = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
       if (userAuth) {
@@ -44,6 +44,7 @@ class App extends React.Component {
         });
       }
       setCurrentUser(userAuth);
+      addCollectionDocuments('collections', collectionsArray.map(({title, items}) => ({title, items})));
     });
   }
 
@@ -71,7 +72,8 @@ class App extends React.Component {
 
 const mapStateToProps = /*({user})*//*state =>*/ createStructuredSelector({
   //currentUser: user.currentUser
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
+  collectionsArray: selectCollectionsForPreview
 })
 
 const mapDispatchToProps = dispatch => ({
